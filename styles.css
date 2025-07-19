@@ -48,3 +48,34 @@ a#tribute-link:hover {
   color: #003366;
   text-decoration: underline;
 }
+@media (max-width: 600px) {
+  body {
+    margin: 10px;
+    font-size: 16px;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    font-size: 0.95em;
+    padding: 5px;
+  }
+
+  ul {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  blockquote {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  a#tribute-link {
+    font-size: 1em;
+    padding: 8px 12px;
+  }
+}
